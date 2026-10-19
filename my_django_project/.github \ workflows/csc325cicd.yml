@@ -26,7 +26,7 @@ Jobs:
           python manage.py test
 
       - name: Deploy
-        run: |
+        deploy: |
           # Add your deployment commands here
           echo "Deploying the application..."
 
